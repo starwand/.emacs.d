@@ -13,3 +13,5 @@
 
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
+
+(use-package my-common            :load-path "my-packages" :straight nil)
