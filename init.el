@@ -15,3 +15,4 @@
 (setq straight-use-package-by-default t)
 
 (use-package my-common            :load-path "my-packages" :straight nil)
+(use-package my-key-chord         :load-path "my-packages" :straight nil)
