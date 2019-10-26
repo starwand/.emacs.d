@@ -24,3 +24,4 @@
 (use-package my-helm              :load-path "my-packages" :straight nil)
 (use-package my-which-key         :load-path "my-packages" :straight nil)
 (use-package my-smart-mode-line   :load-path "my-packages" :straight nil)
+(use-package my-rainbow-delimiters  :load-path "my-packages" :straight nil)
