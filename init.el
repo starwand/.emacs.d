@@ -14,6 +14,9 @@
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
 
+(use-package use-package-hydra)
+(use-package hydra)
+
 (use-package my-common            :load-path "my-packages" :straight nil)
 (use-package my-key-chord         :load-path "my-packages" :straight nil)
 (use-package my-git               :load-path "my-packages" :straight nil)
