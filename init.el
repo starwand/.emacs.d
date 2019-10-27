@@ -29,3 +29,4 @@
 (use-package my-elscreen            :load-path "my-packages" :straight nil)
 (use-package my-company             :load-path "my-packages" :straight nil)
 (use-package my-lsp                 :load-path "my-packages" :straight nil)
+(use-package my-dashboard           :load-path "my-packages" :straight nil)
