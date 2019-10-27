@@ -1,6 +1,6 @@
 (use-package rainbow-delimiters
-  :hook ((c-mode c++-mode) .
-         (lambda () (rainbow-delimiters-mode)))
+  :hook
+  (prog-mode . rainbow-delimiters-mode)
   :config
   ;; Configure rainbow color nicely: https://qiita.com/gnrr/items/8f9efd5ced058e576f5e
   (setq rainbow-delimiters-outermost-only-face-count 1)
