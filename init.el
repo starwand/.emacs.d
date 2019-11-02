@@ -30,5 +30,6 @@
 (use-package my-company             :load-path "my-packages" :straight nil)
 (use-package my-lsp                 :load-path "my-packages" :straight nil)
 (use-package my-cpp                 :load-path "my-packages" :straight nil)
+(use-package my-multiple-cursors    :load-path "my-packages" :straight nil)
 (use-package my-dashboard           :load-path "my-packages" :straight nil)
 (use-package my-flycheck            :load-path "my-packages" :straight nil)
