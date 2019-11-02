@@ -33,3 +33,4 @@
 (use-package my-multiple-cursors    :load-path "my-packages" :straight nil)
 (use-package my-dashboard           :load-path "my-packages" :straight nil)
 (use-package my-flycheck            :load-path "my-packages" :straight nil)
+(use-package my-smart-parens        :load-path "my-packages" :straight nil)
