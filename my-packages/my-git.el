@@ -41,4 +41,7 @@
     (set-face-foreground 'git-gutter-fr:deleted  "magenta")
     (global-git-gutter-mode t)))
 
+(use-package forge
+  :after magit)
+
 (provide 'my-git)
