@@ -13,6 +13,10 @@
   (setq helm-M-x-fuzzy-match t)
   (customize-set-variable 'helm-ff-lynx-style-map t))
 
+(use-package helm-descbinds
+  :after helm
+  :bind ("C-h b" . helm-descbinds))
+
 (use-package helm-describe-modes
   :after helm
   :bind ("C-h m" . helm-describe-modes))
