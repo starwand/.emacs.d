@@ -48,7 +48,7 @@
   (setq company-transformers nil))
 
 (use-package company-statistics
-  :config
-  (company-statistics-mode))
+  :init
+  (add-hook 'after-init-hook 'company-statistics-mode))
 
 (provide 'my-company)
