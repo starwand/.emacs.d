@@ -1,15 +1,38 @@
-# Compiled
 *.elc
-
-# Packaging
-.cask
-
-# Backup files
+*.eld
 *~
-
-# Undo-tree save-files
 *.~undo-tree
+
+# company
+company-statistics-cache.el
+
+# desktop
+.emacs.desktop
+.emacs.desktop.lock
+
+# forge
+forge-database.sqlite
+
+# history
+history
+
+# lsp
+.lsp-session-v1
+
+# mc
+.mc-lists.el
+
+# projectile
+projectile.cache
+
+# recentf
+recentf
 
 # straight.el
 straight/*
 !straight/versions
+
+transient/
+url/
+
+session.*
