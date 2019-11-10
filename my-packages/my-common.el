@@ -72,10 +72,6 @@
 
 (desktop-save-mode)
 
-(use-package yasnippet
-  :diminish yas-minor-mode
-  :hook (after-init . yas-global-mode))
-
 (use-package xclip
   :config
   (xclip-mode 1))
