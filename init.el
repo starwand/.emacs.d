@@ -37,3 +37,4 @@
 (use-package my-smart-parens        :load-path "my-packages" :straight nil)
 (use-package my-paredit             :load-path "my-packages" :straight nil)
 (use-package my-compile             :load-path "my-packages" :straight nil)
+(use-package my-go                  :load-path "my-packages" :straight nil)
