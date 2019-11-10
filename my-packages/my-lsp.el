@@ -1,5 +1,5 @@
 (use-package lsp-mode
-  :commands lsp
+  :commands (lsp lsp-deferred)
   :custom
   (lsp-print-io nil)
   (lsp-trace nil)
