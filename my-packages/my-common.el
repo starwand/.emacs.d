@@ -91,7 +91,7 @@
   :custom
   (highlight-indent-guides-auto-enabled t)
   (highlight-indent-guides-responsive t)
-  (highlight-indent-guides-method 'character))
+  (highlight-indent-guides-method 'column))
 
 (use-package fill-column-indicator
   :hook
