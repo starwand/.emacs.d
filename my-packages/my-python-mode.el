@@ -6,4 +6,7 @@
    :init
    (custom-set-variables '(conda-anaconda-home "~/anaconda3")))
 
+(use-package py-yapf
+  :hook (python-mode . (lambda () (py-yapf-enable-on-save))))
+
 (provide 'my-python-mode)
