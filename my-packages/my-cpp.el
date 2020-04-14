@@ -4,8 +4,8 @@
 
 (use-package clang-format)
 
-
 (use-package cc-mode
-  :bind (:map c-mode-base-map ("C-c C-c" . nil) ("C-c C-c" . 'recompile)))
+  :bind (:map c-mode-base-map ("C-c C-c" . nil) ("C-c C-c" . 'recompile)
+	      ([C-M-return] . 'clang-format-region)))
 
 (provide 'my-cpp)
