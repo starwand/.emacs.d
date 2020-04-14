@@ -92,7 +92,7 @@
   ((prog-mode yaml-mode) . highlight-indent-guides-mode)
   :custom
   (highlight-indent-guides-auto-enabled t)
-  (highlight-indent-guides-responsive t)
+  (highlight-indent-guides-responsive nil)
   (highlight-indent-guides-method 'column))
 
 (use-package fill-column-indicator
