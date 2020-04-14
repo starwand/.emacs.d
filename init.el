@@ -28,7 +28,7 @@
 (use-package my-rainbow-delimiters  :load-path "my-packages" :straight nil)
 (use-package my-elscreen            :load-path "my-packages" :straight nil)
 (use-package my-company             :load-path "my-packages" :straight nil)
-(use-package my-lsp                 :load-path "my-packages" :straight nil)
+(use-package my-eglot               :load-path "my-packages" :straight nil)
 (use-package my-cpp                 :load-path "my-packages" :straight nil)
 (use-package my-python-mode         :load-path "my-packages" :straight nil)
 (use-package my-multiple-cursors    :load-path "my-packages" :straight nil)
