@@ -38,15 +38,6 @@
   (set-face-attribute 'company-scrollbar-bg nil
 		      :background "gray30"))
 
-(use-package company-lsp
-  :custom
-  (company-lsp-cache-candidates t)
-  (company-lsp-async t)
-  (company-lsp-enable-recompletion nil)
-  :config
-  (push 'company-lsp company-backends)
-  (setq company-transformers nil))
-
 (use-package company-statistics
   :init
   (add-hook 'after-init-hook 'company-statistics-mode))
