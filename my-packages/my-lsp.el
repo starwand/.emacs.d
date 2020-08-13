@@ -1,5 +1,6 @@
 (use-package lsp-mode
   :commands (lsp lsp-deferred)
+  :hook ((c++-mode c-mode) . #'lsp)
   :custom
   (lsp-print-io nil)
   (lsp-trace nil)
