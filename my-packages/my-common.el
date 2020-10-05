@@ -35,16 +35,16 @@
 
 ;; region
 (set-face-foreground 'region nil)
-(set-face-background 'region "dark slate blue")
+(set-face-background 'region "gray45")
 
 ;; hl-hine
 (defface hlline-face
   '((((class color)
       (background dark))
-     (:background "dark slate gray"))
+     (:background "gray15"))
     (((class color)
       (background light))
-     (:background "LavenderBlush3"))
+     (:background "gray15"))
     (t
      ()))
   "*Face used by hl-line.")

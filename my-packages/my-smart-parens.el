@@ -6,9 +6,9 @@
 		 show-paren-when-point-inside-paren t
 		 show-paren-priority -200)
   (set-face-attribute 'show-paren-match nil
-                      :background nil
-                      :foreground nil
-                      :underline "orange"
+                      :background "gray21"
+                      :foreground 'unspecified
+                      :underline "brightmagenta"
                       :weight 'normal))
 
 (use-package smartparens
