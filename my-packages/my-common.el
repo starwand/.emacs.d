@@ -10,7 +10,7 @@
 (use-package nlinum
   :config
   (global-nlinum-mode t)
-  (setq nlinum-format "%4d"))
+  (setq nlinum-format "%4d "))
 (setq column-number-mode t)
 
 ;; font settings
