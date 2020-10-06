@@ -1,4 +1,5 @@
 (use-package google-c-style
+  :straight (google-c-style :type git :host github :repo "google/styleguide" :branch "gh-pages")
   :hook ((c-mode-common . google-set-c-style)
          (c-mode-common . google-make-newline-indent)))
 
