@@ -23,9 +23,9 @@
   (custom-set-variables)
 
   (custom-set-faces
-   '(elscreen-tab-current-screen-face ((t (:background "DarkOrange3" :foreground "white"))))
-   '(elscreen-tab-background-face ((t (:background "gray10" :foreground "gray10"))))
-   '(elscreen-tab-other-screen-face ((t (:background "gray50" :foreground "white")))))
+   '(elscreen-tab-current-screen-face ((t (:foreground "darkorange" :background "gray10"))))
+   '(elscreen-tab-background-face ((t (:foreground "gray60" :background "gray10"))))
+   '(elscreen-tab-other-screen-face ((t (:foreground "gray60" :background "gray10")))))
 
   (elscreen-start))
 
