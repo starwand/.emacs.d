@@ -15,8 +15,8 @@
 
   (define-key global-map (kbd "C-<prior>") 'elscreen-previous)
   (define-key global-map (kbd "C-<next>") 'elscreen-next)
-  (define-key global-map (kbd "C-S-T") 'elscreen-create)
-  (define-key global-map (kbd "C-S-W") 'elscreen-kill)
+  (define-key global-map (kbd "C-M-<next>") 'elscreen-create)
+  (define-key global-map (kbd "C-M-<prior>") 'elscreen-kill)
 
   (setq elscreen-display-tab 20)
   (setq elscreen-tab-display-kill-screen nil)
