@@ -32,6 +32,7 @@
 (use-package my-elscreen            :load-path "my-packages" :straight nil)
 (use-package my-company             :load-path "my-packages" :straight nil)
 (use-package my-cpp                 :load-path "my-packages" :straight nil)
+(use-package my-csharp              :load-path "my-packages" :straight nil)
 (use-package my-python-mode         :load-path "my-packages" :straight nil)
 (use-package my-lsp                 :load-path "my-packages" :straight nil)
 (use-package my-pomodoro            :load-path "my-packages" :straight nil)
