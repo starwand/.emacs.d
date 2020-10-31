@@ -14,6 +14,8 @@
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
 
+(use-package diminish
+  :ensure t)
 (use-package use-package-hydra)
 (use-package hydra)
 
