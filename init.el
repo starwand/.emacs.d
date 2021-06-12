@@ -24,10 +24,11 @@
 (require 'use-package)
 
 ;;; Load my packages.
-(use-package my-use-package :load-path "my-packages" :straight nil)
-(use-package my-flycheck    :load-path "my-packages" :straight nil)
-(use-package my-theme       :load-path "my-packages" :straight nil)
-(use-package my-hydra       :load-path "my-packages" :straight nil)
-(use-package my-cursor-move :load-path "my-packages" :straight nil)
-(use-package my-backup      :load-path "my-packages" :straight nil)
-(use-package my-history     :load-path "my-packages" :straight nil)
+(use-package my-use-package    :load-path "my-packages" :straight nil)
+(use-package my-flycheck       :load-path "my-packages" :straight nil)
+(use-package my-theme          :load-path "my-packages" :straight nil)
+(use-package my-hydra          :load-path "my-packages" :straight nil)
+(use-package my-cursor-move    :load-path "my-packages" :straight nil)
+(use-package my-backup         :load-path "my-packages" :straight nil)
+(use-package my-history        :load-path "my-packages" :straight nil)
+(use-package my-clipboard-sync :load-path "my-packages" :straight nil)
