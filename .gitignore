@@ -12,3 +12,7 @@
 
 # magit
 /transient
+
+# projectile
+projectile-bookmarks.eld
+projectile.cache
