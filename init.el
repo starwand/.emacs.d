@@ -28,6 +28,7 @@
 (use-package my-flycheck         :load-path "my-packages" :straight nil)
 (use-package my-theme            :load-path "my-packages" :straight nil)
 (use-package my-smart-mode-line  :load-path "my-packages" :straight nil)
+(use-package my-dashboard        :load-path "my-packages" :straight nil)
 (use-package my-hydra            :load-path "my-packages" :straight nil)
 (use-package my-cursor-move      :load-path "my-packages" :straight nil)
 (use-package my-backup           :load-path "my-packages" :straight nil)
