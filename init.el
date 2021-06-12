@@ -43,3 +43,4 @@
 (use-package my-swiper           :load-path "my-packages" :straight nil)
 (use-package my-counsel          :load-path "my-packages" :straight nil)
 (use-package my-dumb-jump        :load-path "my-packages" :straight nil)
+(use-package my-which-key        :load-path "my-packages" :straight nil)
