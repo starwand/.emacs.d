@@ -29,3 +29,4 @@
 (use-package my-theme       :load-path "my-packages" :straight nil)
 (use-package my-hydra       :load-path "my-packages" :straight nil)
 (use-package my-cursor-move :load-path "my-packages" :straight nil)
+(use-package my-history     :load-path "my-packages" :straight nil)
