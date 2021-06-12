@@ -33,3 +33,4 @@
 (use-package my-history          :load-path "my-packages" :straight nil)
 (use-package my-clipboard-sync   :load-path "my-packages" :straight nil)
 (use-package my-multiple-cursors :load-path "my-packages" :straight nil)
+(use-package my-visual-regexp    :load-path "my-packages" :straight nil)
