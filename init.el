@@ -41,3 +41,4 @@
 (use-package my-ivy              :load-path "my-packages" :straight nil)
 (use-package my-swiper           :load-path "my-packages" :straight nil)
 (use-package my-counsel          :load-path "my-packages" :straight nil)
+(use-package my-dumb-jump        :load-path "my-packages" :straight nil)
