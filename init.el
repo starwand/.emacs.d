@@ -22,3 +22,6 @@
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
 (require 'use-package)
+
+;;; Load my packages.
+(use-package my-use-package :load-path "my-packages" :straight nil)
