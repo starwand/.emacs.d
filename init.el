@@ -46,3 +46,4 @@
 (use-package my-dumb-jump        :load-path "my-packages" :straight nil)
 (use-package my-which-key        :load-path "my-packages" :straight nil)
 (use-package my-company          :load-path "my-packages" :straight nil)
+(use-package my-paredit          :load-path "my-packages" :straight nil)
