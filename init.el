@@ -35,3 +35,4 @@
 (use-package my-multiple-cursors :load-path "my-packages" :straight nil)
 (use-package my-visual-regexp    :load-path "my-packages" :straight nil)
 (use-package my-memo             :load-path "my-packages" :straight nil)
+(use-package my-key-chord        :load-path "my-packages" :straight nil)
