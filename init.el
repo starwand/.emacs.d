@@ -38,3 +38,4 @@
 (use-package my-key-chord        :load-path "my-packages" :straight nil)
 (use-package my-git              :load-path "my-packages" :straight nil)
 (use-package my-projectile       :load-path "my-packages" :straight nil)
+(use-package my-ivy              :load-path "my-packages" :straight nil)
