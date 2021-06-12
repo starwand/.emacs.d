@@ -17,3 +17,8 @@
       (eval-print-last-sexp)))
   (load bootstrap-file nil 'nomessage))
 (require 'straight)
+
+;;; Bootstrap use-package.
+(straight-use-package 'use-package)
+(setq straight-use-package-by-default t)
+(require 'use-package)
