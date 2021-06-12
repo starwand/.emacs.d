@@ -1,3 +1,6 @@
+# emacs
+*.elc
+
 # straight.el
 /straight/
 
