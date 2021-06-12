@@ -49,3 +49,4 @@
 (use-package my-paredit          :load-path "my-packages" :straight nil)
 ;;; Packages for programming languages.
 (use-package my-csharp           :load-path "my-packages" :straight nil)
+(use-package my-fish             :load-path "my-packages" :straight nil)
