@@ -2,6 +2,7 @@
 
 (use-package company
   :diminish company-mode
+  :commands (company-mode company-indent-or-complete-common)
   :init
   (add-hook 'prog-mode-hook
             #'(lambda ()
