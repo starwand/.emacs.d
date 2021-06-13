@@ -4,6 +4,7 @@
   :after ivy
   :diminish
   :bind (("C-x C-f" . counsel-find-file)
+         ("C-y"     . counsel-yank-pop)
          ("M-x"     . counsel-M-x)))
 
 (use-package counsel-projectile
