@@ -29,4 +29,9 @@
   ("k"   projectile-kill-buffers              "Kill Buffers")
   ("q"   nil "Cancel" :color blue)))
 
+(use-package smex
+  :defines smex-save-file
+  :config
+  (smex-initialize))
+
 (provide 'my-counsel)

@@ -19,3 +19,6 @@ projectile.cache
 
 # perspective
 persp-state-file
+
+# smex
+smex-items
