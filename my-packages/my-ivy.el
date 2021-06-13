@@ -14,7 +14,8 @@
           (complete-symbol      . ivy-posframe-display-at-point)
           (counsel-M-x          . ivy-posframe-display-at-point)
           (flyspell-correct-ivy . ivy-posframe-display-at-point)
-          (counsel-recentf      . ivy-posframe-display-at-frame-center)
+          (counsel-recentf      . ivy-posframe-display-at-point)
+          (counsel-yank-pop     . ivy-posframe-display-at-point)
           (t                    . ivy-posframe-display)
           ))
   (setq ivy-posframe-parameters
