@@ -50,6 +50,7 @@
 (use-package my-paredit          :load-path "my-packages" :straight nil)
 (use-package my-perspective      :load-path "my-packages" :straight nil)
 ;;; Packages for programming languages.
+(use-package my-cmake            :load-path "my-packages" :straight nil)
 (use-package my-csharp           :load-path "my-packages" :straight nil)
 (use-package my-fish             :load-path "my-packages" :straight nil)
 (use-package my-groovy           :load-path "my-packages" :straight nil)
