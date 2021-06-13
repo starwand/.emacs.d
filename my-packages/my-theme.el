@@ -54,6 +54,8 @@
   (highlight-indent-guides-responsive nil)
   (highlight-indent-guides-method 'column))
 
+(setq-default indent-tabs-mode nil)
+
 ;;; delimiters
 (use-package rainbow-delimiters
   :hook
