@@ -22,3 +22,6 @@ persp-state-file
 
 # smex
 smex-items
+
+# gcc emacs
+/eln-cache
