@@ -53,4 +53,5 @@
 (use-package my-csharp           :load-path "my-packages" :straight nil)
 (use-package my-fish             :load-path "my-packages" :straight nil)
 (use-package my-groovy           :load-path "my-packages" :straight nil)
+(use-package my-protobuf         :load-path "my-packages" :straight nil)
 (use-package my-yaml             :load-path "my-packages" :straight nil)
