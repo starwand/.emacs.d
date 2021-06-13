@@ -1,11 +1,6 @@
 (require 'use-package)
 
 ;;; linum-mode settings
-(use-package nlinum
-  :functions global-nlinum-mode
-  :config
-  (global-nlinum-mode t)
-  (setq nlinum-format "%4d "))
 (global-display-line-numbers-mode)
 
 ;;; fill-column
