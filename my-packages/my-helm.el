@@ -1,7 +1,8 @@
 (require 'use-package)
 
 (use-package helm
-  :bind (("C-x C-b" . helm-buffers-list)
+  :bind (("C-y" . helm-show-kill-ring)
+         ("C-x C-b" . helm-buffers-list)
          ("C-x C-g" . ibuffer)
          :map helm-map
          ("<left>"  . 'helm-previous-source)
