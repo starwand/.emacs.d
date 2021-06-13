@@ -48,6 +48,7 @@
 (use-package my-helm             :load-path "my-packages" :straight nil)
 (use-package my-which-key        :load-path "my-packages" :straight nil)
 (use-package my-company          :load-path "my-packages" :straight nil)
+(use-package my-yasnippet        :load-path "my-packages" :straight nil)
 (use-package my-paredit          :load-path "my-packages" :straight nil)
 (use-package my-perspective      :load-path "my-packages" :straight nil)
 ;;; Packages for programming languages.
