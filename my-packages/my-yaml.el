@@ -1,5 +1,6 @@
 (require 'use-package)
 
-(use-package yaml)
+(use-package yaml-mode
+  :mode ("\\.yaml$"))
 
 (provide 'my-yaml)
