@@ -51,6 +51,7 @@
 (use-package my-company          :load-path "my-packages" :straight nil)
 (use-package my-yasnippet        :load-path "my-packages" :straight nil)
 (use-package my-paredit          :load-path "my-packages" :straight nil)
+(use-package my-smart-parens     :load-path "my-packages" :straight nil)
 (use-package my-perspective      :load-path "my-packages" :straight nil)
 ;;; Packages for programming languages.
 (use-package my-cmake            :load-path "my-packages" :straight nil)
