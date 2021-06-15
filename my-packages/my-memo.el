@@ -10,7 +10,7 @@
         deft-extensions '("md")
         deft-recursive t
         deft-new-file-format "%Y%m%d-%H%M%S")
-  (defvar deft-default-extension (car deft-extensions))
+  (setq deft-default-extension (car deft-extensions))
   :hydra
   (hydra-deft (:color teal :hint nil :columns 4)
   "deft"
