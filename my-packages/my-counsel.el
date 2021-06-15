@@ -1,10 +1,17 @@
 (require 'use-package)
 
 (use-package counsel
-  :after ivy
+  :after (ivy company)
   :diminish
   :bind (("C-x C-f" . counsel-find-file)
-         ("M-x"     . counsel-M-x)))
+         ("M-x"     . counsel-M-x))
+  :config
+  (defun my-company-complete-common (old-func)
+    (if (company-tooltip-visible-p)
+        (company-complete-selection)
+      (counsel-company)))
+  (advice-add #'company-complete-common
+              :around #'my-company-complete-common))
 
 (use-package counsel-projectile
   :bind
